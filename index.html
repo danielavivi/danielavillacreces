@@ -1,10 +1,64 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> HOLA HOLA</h1>
-</body>
-</html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>PhD Application</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                }
+                #container {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px;
+                }
+                #left-column {
+                    flex-basis: 40%;
+                    padding-right: 20px;
+                }
+                #right-column {
+                    flex-basis: 60%;
+                    padding-left: 20px;
+                    border-left: 1px solid #ccc;
+                }
+                #cv-link {
+                    display: block;
+                    margin-top: 10px;
+                }
+                hr {
+                    border: 0;
+                    border-top: 1px solid #ccc;
+                    margin: 20px 0;
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div id="container">
+            <div id="left-column">
+                <h1>Your Name</h1>
+                <img src="pic.jpg" alt="Your Picture" style="max-width: 100%; height: auto;">
+                <a href="https://publications.iadb.org/en/macroeconomic-stability-welfare-optimizing-fiscal-rules-commodity-dependent-economies-discussion" id="cv-link">CV</a>
+                <p>
+                    Description of yourself goes here.
+                </p>
+            </div>
+            <div id="right-column">
+                <h2>Other Things</h2>
+                <p>
+                    Content about your research, academic interests, achievements, etc., can go here.
+                </p>
+            </div>
+        </div>
+        
+        <hr>
+        
+        <footer>
+            <p>Copyright &copy; 2024 Your Name</p>
+        </footer>
+        
+        </body>
+        </html>
